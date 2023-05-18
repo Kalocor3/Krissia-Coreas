@@ -1,0 +1,59 @@
+
+html{
+    background-image:url(oldpaper.avif);
+    background-position: center center;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  h1 {
+    margin: 0;
+    font-size: 32px;
+  }
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  p {
+    line-height: 1.5;
+  }  
+  nav{
+    background-color: bisque;
+    margin-top: -15px;
+    text-align: center;
+    font-size: x-large;
+    padding: 5px;
+
+  }
+  nav a{
+    padding: 5px;
+    color: black;
+  }
+  nav a:hover{
+    color:white;
+  }
+
+#Me{
+    position: relative;
+    bottom: 100px;
+    left: 600px;
+    width: 200px;
+}
+footer{
+    position: absolute;
+    bottom: 10px;
+    background-color: #fff;
+    width: 800px;
+    text-align: center;
+}
